@@ -1,0 +1,151 @@
+body {
+  font-family: "SoDo Sans Semibold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  margin: 0px;
+}
+
+.navbar-container {
+  box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+}
+
+.navbar {
+  max-width: 1560px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  font-size: 14px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left svg {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.navbar-left div {
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar-left div:hover,
+.navbar-rightside:hover {
+  color: #00754a;
+}
+
+.navbar-left > *,
+.navbar-right > * {
+  margin: 10px;
+}
+
+.navbar-rightside {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sign-in,
+.join-now {
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 5px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.join-now {
+  background-color: black;
+  color: white;
+}
+
+.join-now:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* /////////////////container////////// */
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.block {
+  display: flex;
+  background-color: #006241;
+}
+
+.block-container {
+  margin: 40px 0;
+  display: flex;
+}
+
+.block img {
+  max-width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.block-left,
+.block-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  width: 50%;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  height: 100%;
+}
+
+.block-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.block-description {
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  font-style: 18px;
+}
+
+.block-button {
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 5px 20px;
+  border: 2px solid white;
+  border-radius: 40px;
+  max-width: max-content;
+  font-size: 1.6rem;
+}
+
+.block-button-white {
+  color: white;
+}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000;
+}
